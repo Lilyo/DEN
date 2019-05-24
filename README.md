@@ -21,14 +21,14 @@ We provide pre-trained models on SUNCG-RGBD, Matterport3D, and ScanNet datasets.
 - ScanNet. The original dataset is from https://github.com/ScanNet/ScanNet. Please check link for details of the dataset and how to sign agreement. Zhang et al. render depth from ScanNet dataset for training and evaluating depth completion. Please check 
 https://github.com/yindaz/DeepCompletionRelease for more details. 
 
-## Training:(UNOPENED)
+## Training(UNOPENED)
 	-
-## Experiment:
+## Experiment
 - Result of DEN.
-<img src="https://github.com/Lilyo/DEN/blob/master/fig/2D.png" width="80%">
+<img src="https://github.com/Lilyo/DEN/blob/master/fig/2D.png" width="90%">
 
 - Point cloud visualization of DEN and other comparisons.
-<img src="https://github.com/Lilyo/DEN/blob/master/fig/visualization%20.png" width="70%">
+<img src="https://github.com/Lilyo/DEN/blob/master/fig/visualization%20.png" width="85%">
 
 ## Evaluation
 - We use the MATLAB code [`./matlab/evalDEN.m`](./matlab/evalDEN.m) to evaluate the performance of the depth completion. 
