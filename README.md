@@ -28,7 +28,7 @@ https://github.com/yindaz/DeepCompletionRelease for more details.
 <img src="https://github.com/Lilyo/DEN/blob/master/fig/2D.png" width="90%">
 
 - Point cloud visualization of DEN and other comparisons.
-<img src="https://github.com/Lilyo/DEN/blob/master/fig/visualization%20.png" width="88%">
+<img src="https://github.com/Lilyo/DEN/blob/master/fig/visualization%20.png" width="90%">
 
 ## Evaluation
 - We use the MATLAB code [`./matlab/evalDEN.m`](./matlab/evalDEN.m) to evaluate the performance of the depth completion. 
