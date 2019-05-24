@@ -8,8 +8,10 @@ In this research, we propose a Disentangling and Exchanging Network (DEN) to inp
 ## Quick Test(UNOPENED)
 1. Download ScanNet testing data in [`./data/`](./data), and unzip it there.
 2. Download `650291.ckpt` in [`./pre_train_model/`](./pre_train_model).
-3. Modify default setting for '--phase' to 'test' in `main_dc.py`.
-4. Run `main_dc.py`.
+3. Modify default setting and run `main_dc.py`.
+```bash
+python main_dc.py --phase test
+```
 
 ## Pre-trained Model
 
