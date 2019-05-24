@@ -1,2 +1,1 @@
-*.python linguist-detectable=true
-*.matlab linguist-detectable=false
+*.rb linguist-language=Python
