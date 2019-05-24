@@ -35,3 +35,13 @@ https://github.com/yindaz/DeepCompletionRelease for more details.
 - We provide pre-computed results of our method on ScanNet. You will need a MAT file which contain predict result, raw depth and ground truth depth to run evaluation. Download `650291.mat` in [`./result_eval/ScanNet_gan_2layer_4dis_4scale_1con_60ch_36z_36z/`](./result_eval/ScanNet_gan_2layer_4dis_4scale_1con_60ch_36z_36z).
 
 - Please check [`./data_list/ScanNet_test.txt`](./data_list) for the list of testing images. Since the testing data also comes from original dataset, please email Yinda Zhang for download link after getting access to ScanNet.
+
+## Benchmark
+
+- Error metrics on ScanNet:
+
+	| RGBd-#samples   |  Rel  |  RMSE  | tRMSE | delta1 | delta2 | delta3 |
+	|-----------------------------|:-----:|:-----:|:-----:|:-----:|:-----:|
+	| [Bilateral](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/shkf_eccv2012.pdf) (_ECCV2012_) | 0.0844 | 0.4118 | 0.2539 | 0.9073 | 0.9412 | 0.9584 |
+	| [Zhang et al.](http://deepcompletion.cs.princeton.edu/paper.pdf) (_CVPR2018_)  | 0.0877 | 0.3201 | 0.2284 | 0.9213 | 0.9588 | 0.9764 |
+	| DEN | **0.0748** | **0.3043** | **2195** | **9247** | **9621** | **9794** |
