@@ -24,4 +24,6 @@ This is an official implementation of "DEN: Disentangling and Exchanging Network
 ## Evaluation
 - We use the MATLAB code [`./matlab/evalDEN.m`](./matlab/evalDEN.m) to evaluate the performance of the depth completion. 
 - To evaluate on ScanNet, you need to get accesses to these dataset to download ground truth for the testing set.
-- We provide pre-computed results of our method on ScanNet. Please check [`./data_list/ScanNet_test.txt`](./data_list) for the list of testing images. Since the testing data also comes from original dataset, please email Yinda Zhang for download link after getting access to ScanNet.
+- We provide pre-computed results of our method on ScanNet. you will need a MAT file which contain predict result, raw depth and ground truth depth to run evaluation. Download `650291.mat` in [`./result_eval/ScanNet_gan_2layer_4dis_4scale_1con_16ch_36z_36z/`](./result_eval/ScanNet_gan_2layer_4dis_4scale_1con_16ch_36z_36z).
+
+-Please check [`./data_list/ScanNet_test.txt`](./data_list) for the list of testing images. Since the testing data also comes from original dataset, please email Yinda Zhang for download link after getting access to ScanNet.
