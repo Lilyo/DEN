@@ -24,9 +24,10 @@ https://github.com/yindaz/DeepCompletionRelease for more details.
 ## Training:(UNOPENED)
 	-
 ## Experiment:
-### Result of DEN
+- Result of DEN
 <img src="https://github.com/Lilyo/DEN/blob/master/fig/2D.png" width="100%">
-### Point cloud visualization of DEN and other comparisons.
+
+- Point cloud visualization of DEN and other comparisons.
 <img src="https://github.com/Lilyo/DEN/blob/master/fig/visualization%20.png" width="100%">
 
 ## Evaluation
