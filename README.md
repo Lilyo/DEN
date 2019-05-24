@@ -13,8 +13,7 @@ In this research, we propose a Disentangling and Exchanging Network (DEN) to inp
 python main_dc.py --phase test
 ```
 
-## Pre-trained Model
-
+## Pre-trained Model(UNOPENED)
 We provide pre-trained models on SUNCG-RGBD, Matterport3D, and ScanNet datasets. Please check [`./checkpoint/ScanNet_gan_2layer_4dis_4scale_1con_60ch_36z_36z/`](./checkpoint/ScanNet_gan_2layer_4dis_4scale_1con_60ch_36z_36z) for download links.
 
 ## Depth Completion Dataset
