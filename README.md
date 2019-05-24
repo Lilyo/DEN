@@ -1,4 +1,8 @@
 # DEN: Disentangling and Exchanging Network for Depth Completion
+Yinda Zhang, Thomas Funkhouser</br>
+Deep Depth Completion of a Single RGB-D Image
+Computer Vision and Pattern Recognition (CVPR2018)
+
 This is an official implementation of "DEN: Disentangling and Exchanging Network for Depth Completion" in TensorFlow, the goal of our method is "structure" guided raw depth map completion by disentanged common features from a sigle RGBD image.
 
 ## Introduction
