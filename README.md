@@ -44,16 +44,16 @@ https://github.com/yindaz/DeepCompletionRelease for more details.
 	|---------------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 	| [Bilateral](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/shkf_eccv2012.pdf) (_ECCV2012_) | 0.0844 | 0.4118 | 0.2539 | 0.9073 | 0.9412 | 0.9584 |
 	| [Zhang et al.](http://deepcompletion.cs.princeton.edu/paper.pdf) (_CVPR2018_)  | 0.0877 | 0.3201 | 0.2284 | 0.9213 | 0.9588 | 0.9764 |
-	| DEN | **0.0748** | **0.3043** | **0.2195** | **0.9247** | **0.9621** | **0.9794** |
+	| **DEN** | **0.0748** | **0.3043** | **0.2195** | **0.9247** | **0.9621** | **0.9794** |
 	
 	| RGBD-Valid   |  Rel  |  RMSE  | tRMSE | delta1 | delta2 | delta3 |
 	|---------------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 	| [Bilateral](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/shkf_eccv2012.pdf) (_ECCV2012_) | 0.0494 | 0.2485 | 0.1710 | 0.9588 | 0.9757 | 0.9857 |
 	| [Zhang et al.](http://deepcompletion.cs.princeton.edu/paper.pdf) (_CVPR2018_)  | 0.0490 | 0.2484 | 0.1709 | 0.9588 | 0.9757 | 0.9856 |
-	| DEN | **0.0470** | **0.2300** | **0.1636** | **0.9617** | **0.9786** | **0.9877** |
+	| **DEN** | **0.0470** | **0.2300** | **0.1636** | **0.9617** | **0.9786** | **0.9877** |
 
 	| RGBD-Invalid   |  Rel  |  RMSE  | tRMSE | delta1 | delta2 | delta3 |
 	|---------------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 	| [Bilateral](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/shkf_eccv2012.pdf) (_ECCV2012_) | 0.2266 | 0.6974 | 0.4098 | 0.7560 | 0.8398 | 0.8781 |
 	| [Zhang et al.](http://deepcompletion.cs.princeton.edu/paper.pdf) (_CVPR2018_)  | 0.2016 | 0.4714 | 0.3460 | 0.8113 | 0.9092 | 0.9492 |
-	| DEN | **0.1567** | **0.4574** | **0.3332** | **0.9160** | **0.9134** | **0.9551** |
+	| **DEN** | **0.1567** | **0.4574** | **0.3332** | **0.9160** | **0.9134** | **0.9551** |
