@@ -6,7 +6,6 @@ This is an official implementation of "DEN: Disentangling and Exchanging Network
 ## Training:
 	-
 ## Experiment:
-	-
 ### Result of DEN
 <img src="https://github.com/Lilyo/DEN/blob/master/fig/2D.png" width="100%">
 ### Point cloud visualization of DEN and other comparisons.
