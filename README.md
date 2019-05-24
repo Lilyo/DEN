@@ -25,7 +25,7 @@ https://github.com/yindaz/DeepCompletionRelease for more details.
 	-
 ## Experiment:
 - Result of DEN
-<img src="https://github.com/Lilyo/DEN/blob/master/fig/2D.png" width="100%">
+<img src="https://github.com/Lilyo/DEN/blob/master/fig/2D.png" width="80%">
 
 - Point cloud visualization of DEN and other comparisons.
 <img src="https://github.com/Lilyo/DEN/blob/master/fig/visualization%20.png" width="100%">
