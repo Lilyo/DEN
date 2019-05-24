@@ -13,6 +13,14 @@ This is an official implementation of "DEN: Disentangling and Exchanging Network
 3. Modify default setting for '--phase' to 'test' in `main_dc.py`.
 4. Run `main_dc.py`.
 
+## Pre-trained Model
+
+We provide pre-trained models on SUNCG-RGBD, Matterport3D, and ScanNet datasets. Please check [`./pre_train_model/`](./pre_train_model) for download links.
+
+## Depth Completion Dataset
+- ScanNet. The original dataset is from https://github.com/ScanNet/ScanNet. Please check link for details of the dataset and how to sign agreement. Zhang et al. render depth from ScanNet dataset for training and evaluating depth completion. Please check 
+https://github.com/yindaz/DeepCompletionRelease for more details. 
+
 ## Training:
 	-
 ## Experiment:
