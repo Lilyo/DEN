@@ -26,6 +26,9 @@ https://github.com/yindaz/DeepCompletionRelease for more details.
 - Result of DEN.
 <img src="https://github.com/Lilyo/DEN/blob/master/fig/2D.png" width="90%">
 
+- Error visualization.
+<img src="https://github.com/Lilyo/DEN/blob/master/fig/error.png" width="90%">
+
 - Point cloud visualization of DEN and other comparisons.
 <img src="https://github.com/Lilyo/DEN/blob/master/fig/visualization%20.png" width="90%">
 
