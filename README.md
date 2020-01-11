@@ -1,5 +1,5 @@
 # DEN: Disentangling and Exchanging Network for Depth Completion
-This is an official implementation of "DEN: Disentangling and Exchanging Network for Depth Completion" by You-Feng Wu at CCU 2019. This repo offers the original implementation of the paper in Tensorflow.</br>
+This is an official implementation of "DEN: Disentangling and Exchanging Network for Depth Completion" by Arthur Wu at CCU 2019. This repo offers the original implementation of the paper in Tensorflow. We then submitted to CVPR,2020.</br>
 The goal of our method is "structure" guided raw depth map completion by disentanged common features from a sigle RGBD image.
 
 - Result of DEN.
@@ -8,7 +8,7 @@ The goal of our method is "structure" guided raw depth map completion by disenta
 ## Introduction
 In this research, we propose a Disentangling and Exchanging Network (DEN) to inpainting the depth channel of an RGB-D image, which is captured by a commodity-grade depth camera. When the environment is large, surfaces are shiny, or strong lighting is abundant, the depth channel is often sparse or produced with missing data, while the RGB channels are still dense and store all of the useful information. From this observation, we were thinking about the feasibility of borrowing useful information from RGB image, such as structural information, to complete the obtained sparse depth channel.
   
-## Quick Test(UNOPENED)
+## Quick Test(Updated on Jan 10, 2020)
 1. Download ScanNet testing data in [`./data/`](./data), and unzip it there.
 2. Download `650291.ckpt` in [`./pre_train_model/`](./pre_train_model).
 3. Modify default setting and run `main_dc.py`.
@@ -16,7 +16,7 @@ In this research, we propose a Disentangling and Exchanging Network (DEN) to inp
 python main_dc.py --phase test
 ```
 
-## Pre-trained Model(UNOPENED)
+## Pre-trained Model(Updated on Jan 10, 2020)
 We provide pre-trained models on ScanNet dataset. Please check [`./checkpoint/ScanNet_gan_2layer_4dis_4scale_1con_60ch_36z_36z/`](./checkpoint/ScanNet_gan_2layer_4dis_4scale_1con_60ch_36z_36z) for download links.
 
 ## Depth Completion Dataset
