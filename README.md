@@ -1,4 +1,4 @@
-# DEN: Disentangling and Exchanging Network for Depth Completion
+# DEN: Disentangling and Exchanging Network for Depth Completion(Updated on Sep 14, 2020)
 This is an official implementation of "DEN: Disentangling and Exchanging Network for Depth Completion" by Arthur Wu at CCU 2019. This repo offers the original implementation of the paper in Tensorflow. We then accepted to ICPR,2020.</br>
 The goal of our method is "structure" guided raw depth map completion by disentanged common features from a sigle RGBD image.
 
