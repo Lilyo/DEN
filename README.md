@@ -6,7 +6,7 @@ The goal of our method is "structure" guided raw depth map completion by disenta
 <img src="https://github.com/Lilyo/DEN/blob/master/fig/2D.png" width="90%">
 
 ## Introduction
-In this research, we propose a Disentangling and Exchanging Network ([DEN](https://people.cs.nctu.edu.tw/~walon/publications/wu2020icpr.pdf)) to inpainting the depth channel of an RGB-D image, which is captured by a commodity-grade depth camera. When the environment is large, surfaces are shiny, or strong lighting is abundant, the depth channel is often sparse or produced with missing data, while the RGB channels are still dense and store all of the useful information. From this observation, we were thinking about the feasibility of borrowing useful information from RGB image, such as structural information, to complete the obtained sparse depth channel.
+In this research, we propose a Disentangling and Exchanging Network ([DEN](https://ieeexplore.ieee.org/document/9413146/figures#figures)) to inpainting the depth channel of an RGB-D image, which is captured by a commodity-grade depth camera. When the environment is large, surfaces are shiny, or strong lighting is abundant, the depth channel is often sparse or produced with missing data, while the RGB channels are still dense and store all of the useful information. From this observation, we were thinking about the feasibility of borrowing useful information from RGB image, such as structural information, to complete the obtained sparse depth channel.
   
 ## Quick Test(Updated on Apr 1, 2020)
 1. Download ScanNet testing data in [`./data/`](./data), and unzip it there.
